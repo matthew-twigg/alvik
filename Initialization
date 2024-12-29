@@ -1,0 +1,18 @@
+import machine
+
+# Initialize the LCD display
+lcd = machine.LCD()
+lcd.init()
+
+# Initialize the Alvik Robot
+alvik_robot = machine.Robot()
+alvik_robot.init()
+
+# Move the Alvik Robot forward for one second.
+alvik_robot.forward(1000))
+
+# Make the Alvik Robot stop for one second.
+alvik_robot.stop(1000)))
+
+# Make the Alvik Robot back for one second.
+alvik_robot.back(1000)))
